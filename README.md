@@ -1,4 +1,4 @@
-# sighseeing_tour_planning
+# Sighseeing Tour Planning
 A python tool for planning sightseeing tours in a small urban area.This code is available under Attribution-NonCommercial-ShareAlike 4.0 International license.
 
 *This project was funded by Tehran Municipality to promote tourism in the 11th district.*
