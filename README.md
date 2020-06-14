@@ -13,11 +13,11 @@ In most of the sightseeing tours, there are two active transportation modes work
 
 The major mode usually follows certain criteria which can later be interpreted into a cost function. some of which can be named as:
 
-    The distance of attractions from each other. (in meters)
-    The duration of travel among attractions. (in seconds)
-    The exposure of users into appropriate economic land use. (in either meters or seconds)
-    The exposure of users into historical or leisure inducive land use. (in either meters or seconds)
-    Economical impact (usually in carbon dioxide equivalent)
+    1. The distance of attractions from each other. (in meters)
+    2. The duration of travel among attractions. (in seconds)
+    3. The exposure of users into appropriate economic land use. (in either meters or seconds)
+    4. The exposure of users into historical or leisure inducive land use. (in either meters or seconds)
+    5. Economical impact (usually in carbon dioxide equivalent)
 
 The easiest way to embed such an idea is to calculate a matrix with arrays Rij presenting the cost of the cheapest route when the agent travels from the origin i to the destination j. The problem of finding such routes calls for a different post. In this case, we assume we have an algorithm that returns this route. It is obvious that the Rij would not be equal to the Rji as the cheapest route may be different. 
 
